@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: dockernavaneeth/fastapi-app:1
+        image: dockernavaneeth/fastapi-app:2
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
